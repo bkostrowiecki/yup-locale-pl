@@ -12,7 +12,7 @@ npm install yup-locale-pl
 
 or
 ```
-yarn install yup-locale-pl
+yarn add yup-locale-pl
 ```
 
 ```javascript
