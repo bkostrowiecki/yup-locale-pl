@@ -1,0 +1,10 @@
+{
+  "name": "yup-locale-pl",
+  "version": "0.1.0",
+  "description": "Polish translation of yup validation messages",
+  "main": "index.js",
+  "repository": "https://github.com/bkostrowiecki/yup-locale-pl",
+  "author": "Bartosz Kostrowiecki",
+  "license": "MIT",
+  "private": false
+}
