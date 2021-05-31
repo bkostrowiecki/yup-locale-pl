@@ -1,4 +1,4 @@
-export let mixed = {
+var mixed = {
   default: 'Pole ${path} jest niepoprawne',
   required: 'Pole ${path} jest wymagane',
   oneOf: 'Pole ${path} musi mieć jedną z następujących wartości: ${values}',
@@ -6,7 +6,7 @@ export let mixed = {
   defined: '${path} must be defined',
 };
 
-export let string = {
+var string = {
   length: 'Pole ${path} musi mieć dokładnie ${length} znaków',
   min: 'Pole ${path} musi mieć conajmniej ${min} znaków',
   max: 'Pole ${path} może mieć conajwyej ${max} znaków',
@@ -19,7 +19,7 @@ export let string = {
   uppercase: 'Pole ${path} może mieć tylko wielkie litery',
 };
 
-export let number = {
+var number = {
   min: 'Pole ${path} musi być liczbą większą lub równą ${min}',
   max: 'Pole ${path} musi być liczą mniejsa lub równą ${max}',
   lessThan: 'Pole ${path} musi być liczbą mniejszą od ${less}',
@@ -29,26 +29,26 @@ export let number = {
   integer: 'Pole ${path} musi być liczbą całkowitą',
 };
 
-export let date = {
+var date = {
   min: 'Pole ${path} musi zawierać datę późniejszą niż ${min}',
   max: 'Pole ${path} musi zawierać datę wcześniejszą niż ${max}',
 };
 
-export let boolean = {
+var boolean = {
   isValue: 'Pole ${path} musi być ${value}',
 };
 
-export let object = {
+var object = {
   noUnknown: 'Pole ${path} zawiera nieznane klucze: ${unknown}',
 };
 
-export let array = {
+var array = {
   min: 'Pole ${path} musi zawierać conajmniej ${min} elementów',
   max: 'Pole ${path} może zawierać conajwyżej ${max} elementów',
   length: 'Pole ${path} musi mieć dokładnie ${length} elementów',
 };
 
-export default Object.assign(Object.create(null), {
+module.exports = Object.assign(Object.create(null), {
   mixed,
   string,
   number,
