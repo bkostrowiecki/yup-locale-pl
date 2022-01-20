@@ -8,8 +8,8 @@ var mixed = {
 
 var string = {
   length: 'Pole ${path} musi mieć dokładnie ${length} znaków',
-  min: 'Pole ${path} musi mieć conajmniej ${min} znaków',
-  max: 'Pole ${path} może mieć conajwyej ${max} znaków',
+  min: 'Pole ${path} musi mieć co najmniej ${min} znaków',
+  max: 'Pole ${path} może mieć co najwyżej ${max} znaków',
   matches: 'Pole ${path} musi pasować do następującego wzorca: "${regex}"',
   email: 'Pole ${path} musi być poprawnym adresem email',
   url: 'Pole ${path} musi być poprawnym adresem URL',
@@ -21,9 +21,9 @@ var string = {
 
 var number = {
   min: 'Pole ${path} musi być liczbą większą lub równą ${min}',
-  max: 'Pole ${path} musi być liczą mniejsa lub równą ${max}',
+  max: 'Pole ${path} musi być liczą mniejszą lub równą ${max}',
   lessThan: 'Pole ${path} musi być liczbą mniejszą od ${less}',
-  moreThan: 'Pole ${path} musi być liczbą więszką od ${more}',
+  moreThan: 'Pole ${path} musi być liczbą większą od ${more}',
   positive: 'Pole ${path} musi być liczbą dodatnią',
   negative: 'Pole ${path} musi być liczbą ujemną',
   integer: 'Pole ${path} musi być liczbą całkowitą',
@@ -43,8 +43,8 @@ var object = {
 };
 
 var array = {
-  min: 'Pole ${path} musi zawierać conajmniej ${min} elementów',
-  max: 'Pole ${path} może zawierać conajwyżej ${max} elementów',
+  min: 'Pole ${path} musi zawierać co najmniej ${min} elementów',
+  max: 'Pole ${path} może zawierać co najwyżej ${max} elementów',
   length: 'Pole ${path} musi mieć dokładnie ${length} elementów',
 };
 
